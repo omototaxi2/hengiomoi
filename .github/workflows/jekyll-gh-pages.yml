@@ -1,0 +1,87 @@
+int diachighi;
+void dia_chi_ghi_dl()
+    { switch (caidatd2)
+     { 
+      case 0: diachighi=0;//doc tu 51-
+      break;   
+      case 1: diachighi=310;//doc tu 131//hen mềm 6//"hm6"//tu dong mo den 6
+      break;
+      case 2:diachighi=40;//doc tu 141//hen mềm 7//"hm7"//tu dong mo den 7
+      break;
+      case 3:diachighi=20;//doc tu 151//hen mềm 1//"hm1"//thoi gian cho phep+cam bien mo den 7
+      break;
+      case 4:diachighi=80;//doc tu 161 //hen mềm 2//"hm2"//thoi gian cho phep+cam bien mo den 7
+      break; 
+      case 5:diachighi=110;//doc tu 171 //hen mềm 3//"hm3"//thoi gian cho phep+cam bien mo den 7
+      break;
+      case 6:diachighi=340; //doc tu 181 //hen mềm 4 //"hm4"//thoi gian cho phep+cam bien mo den 7 
+      break;  
+      case 7:diachighi=50;   //doc tu 191 //hen mềm 5 //"hm5"//tu dong mo den 5  
+      break; 
+      case 8:diachighi=440;   //thu mo trong tuan //"tm6"//thuchophepmo6
+      break;  
+        case 9:diachighi=450;  ////"tm7"//thuchophepmo7
+      break; 
+    
+      case 10:diachighi=90;   //"tm5"//giatrit10+t10cong+giatrit  //docmoi2
+      break; 
+      case 11:diachighi=60; //giatrid  //"gm" //giaymax 
+      break; 
+      case 12:diachighi=100;   //"rd"//100-110 va 90-160 ,220-240/khong dung duoc cua blynk giatric //"rc" 
+      break; 
+    
+      case 13:diachighi=320;  // //"rb" 
+      break; 
+       case 14:diachighi=330; //khong dung duoc cua blynk 
+      break;
+       case 15://diachighi=200;   //
+      break;  
+      case 16://diachighi=200;   //
+      break; 
+       case 17:diachighi=350;   //tg_den5_tutatg_tphut
+      break;
+      case 18:diachighi=360;   //ghi mat khau 1/"mkx"
+      break;
+       case 19:diachighi=370;   //ghi mat khau 2/"mkg"
+      break;  
+      case 40:diachighi=380;   //"r5"/giatriluu3
+      break;
+        case 20:diachighi=70;   //"r6"/giatriluu4
+      break;
+       case 21:diachighi=300;   //"r6"/giatriluu4
+      break;
+     case 42:diachighi=390;   //"r7"/giatriluu8
+      break; 
+     // case 23:diachighi=395;   //r9/giatriluu//giaycbt_khicbn_td
+     // break;  
+     
+      case 24:diachighi=290;  //"cbn"////"gt7"//giaycbt_khicbn_tdg*1000000+tg_tatden72_saukhicbntdg*100+xem;
+      break;  
+       case 25:diachighi=400;   //giophut tatden5//"gtd5"/00/00||00/00
+      break;
+       case 26:diachighi=410;   //giophut tatden6//"gtd6"//00/00||00/00
+      break; 
+       case 27:diachighi=420;   //giophut tatden7//"gtd7"//00/00||00/00
+      break;
+        case 28:diachighi=330;    //xung mot phut"xmp"//39
+      break;
+      // case 29:diachighi=348;   //"ctda"//xem=29 00//doc 2 so dau tien khi nhap chi 2 con so
+      //break;
+       case 30:diachighi=380;   //chua co 
+      break;
+       case 31:diachighi=430; //"hm31"//thoi_gian_ghi=tg_henmo51 ;//00/00//00/00
+         
+      break;
+       case 32:diachighi=480; //"hm32";  //00/00//00/00
+      break;
+       case 33:diachighi=470; //"hm33"//thoi_gian_ghi=tg_henmo71 ;  //00/00//00/00
+      break;
+       case 34:diachighi=460; //"hm34"//"hen gio sang toi" ;  //00/00//00/00//địng nghĩa chân="dnc"
+      break;
+    
+           default://diachighi=444; 
+      break;
+    }
+   }
+   
+  
